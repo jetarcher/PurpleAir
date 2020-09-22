@@ -59,7 +59,7 @@
             dataType: tableau.dataTypeEnum.string
         },{
             id: "Temperature_F",
-            alias: "Current temperature in Farenheit",
+            alias: "Current temperature in degrees Farenheit",
             dataType: tableau.dataTypeEnum.float
        },{
             id: "Humidity",
