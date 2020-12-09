@@ -90,7 +90,7 @@
     // Download the data
     // use "https://www.purpleair.com/json?show=250" to get a small amount of data
     myConnector.getData = function(table, doneCallback) {
-        $.getJSON("https://www.purpleair.com/json", function(resp) {
+        $.getJSON("https://www.purpleair.com/json?tempAccess=PatrickABowman", function(resp) {
             var res = resp.results,
                 tableData = [];
 
